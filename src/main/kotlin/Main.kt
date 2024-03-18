@@ -7,7 +7,6 @@ fun main(args: Array<String>) {
         println("Usage: kdock run <command> <args>")
         return
     }
-
     val command = args.sliceArray(2 until args.size)
 
     try {
